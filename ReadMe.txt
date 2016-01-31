@@ -1,6 +1,6 @@
 
 
-Virtual SN76477 
+SN76477 Emulator
 ===========================================================================================================
 
 The SN76477 is an 80s classic home computer sound chip from Texas Instrument.
