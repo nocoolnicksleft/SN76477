@@ -22,11 +22,13 @@ feel free to drop me a line and I'll try to remember how this works.
 It will compile under Visual Studio 2015 and .NET 4, but it will not run if built as x64 or "Any CPU". 
 Switch to x86 and make sure these settings are in app.config:
 
-...<startup useLegacyV2RuntimeActivationPolicy="true">...
+```
+<startup useLegacyV2RuntimeActivationPolicy="true">
 
 <runtime>
   <NetFx40_LegacySecurityPolicy enabled="true"/>
 </runtime>
+```
 
 ###Credits
 
